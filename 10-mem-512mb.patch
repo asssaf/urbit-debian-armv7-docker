@@ -1,0 +1,12 @@
+diff -auNr urbit-0.4.5.orig/include/c/portable.h urbit-0.4.5/include/c/portable.h
+--- urbit-0.4.5.orig/include/c/portable.h	2017-05-11 04:01:11.000000000 -0700
++++ urbit-0.4.5/include/c/portable.h	2017-09-19 16:15:53.859713887 -0700
+@@ -74,7 +74,7 @@
+   **/
+ # if defined(U3_OS_linux)
+ #   define U3_OS_LoomBase 0x36000000
+-#   define U3_OS_LoomBits 29            //  ie, 2^29 words == 2GB
++#   define U3_OS_LoomBits 27            //  ie, 2^29 words == 2GB
+ # elif defined(U3_OS_osx)
+ #   ifdef __LP64__
+ #     define U3_OS_LoomBase 0x200000000

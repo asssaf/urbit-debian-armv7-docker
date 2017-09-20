@@ -1,0 +1,12 @@
+diff -auNr urbit-0.4.5.orig/outside/anachronism/Makefile urbit-0.4.5/outside/anachronism/Makefile
+--- urbit-0.4.5.orig/outside/anachronism/Makefile	2017-05-11 04:01:11.000000000 -0700
++++ urbit-0.4.5/outside/anachronism/Makefile	2017-09-19 18:23:45.887742739 -0700
+@@ -7,7 +7,7 @@
+ CC     = cc
+ endif
+ FLAGS  = -c -fPIC -Iinclude/
+-CFLAGS = --pedantic -Wall -Wextra -march=native -std=gnu99
++CFLAGS = --pedantic -Wall -Wextra -std=gnu99
+ INCLUDE = include/anachronism
+ 
+ VERSION_MAJOR = 0
